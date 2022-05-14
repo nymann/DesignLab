@@ -6,7 +6,7 @@ I'll only show parts of the class diagram that I find noteworthy in this section
 
 ![IPostEntityProcessingService](http://www.plantuml.com/plantuml/png/fLDDIyD04BtlhnZm4Z65u4cab8ej8dWezE115ARPgHtSx8JTiLYA_zqrIIaXK2ZDPPPz7tblDvb6nQ3VbJCgDQZ0IbIb0ik1IcNn9dwnhp5W1OuzwQucaA0RCQPq62CyHAKWR9UrOqrBs1k0cy5sTdqF3L07AId6x0ahcg5Y3gyId4tmDj4RIXa8bHOIjL4VhBB38eUr4zHk96K7jEeDUkkeKHuL_PVyTjaVnJcEB7v6sjRjqW-1S_ApLmenwM8szygwow6TYRGISOG-HMXOQom9dl-hjen5wyx-SqbXomaSZ-78d4nWVpf5l-0BhwcpFDnCV--iMd56QBD6Zq6FPJfq_bDp89ir4vN5zsafbHbyBRrdz7PL57UtHP5RZ1koxwCFE7qwPdXJ5nhsZmpWmeHcIjwc_-iF)
 
-AsteroidSplitter, could've been less specific and become an `EntitySplitter` which would then make it more abstract and easier to re-use. We might implement a `BulletSplitter` later.
+AsteroidSplitter, could've been less specific and become an `EntitySplitter` which would then make it more abstract and easier to re-use. We might implement a `BulletSplitter` later. However, note when introducing this new level of indirection, the class will still ultimately need to know at runtime which entity types it needs to split. In order to solve that `EntitySplitter` could jus become a `CommonSplitter` which `AsteroidSplitter` could then inherit from.
 
 ![IEntityProcessingService](http://www.plantuml.com/plantuml/png/hP9FImCn4CNl-HG3NbPiOV4aKahzKyHROGyUH67SZ6umoOHajh0Klxkrg-GIKPRc5FWDxysRcLKIZD8xguG32CCBYx03RIArOjYhz6vym8WEhF4aGo3WA1qhrLfC2QwIK6IZRzXBPDiCISZ1JW6SbLbrUWa76YAtb59rXuvkKN063nojtkCj6tqewOD6eQR3GDNQYv7XXtvysr_trf8Kp3EPPfqwPiccu-UVJQqzkQ7KKmR7deRnGl4LMuBx4Mr6FUFV6efRimUB1UIgvH9sV_lcI1kB0yLIfaoE7agLZ-lhpHzFwlhYlAvd6bD7-cd-3Bz7LwKpWIb2XTLE4oeDT8AGMf7NlREV)
 
