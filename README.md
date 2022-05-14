@@ -1,3 +1,17 @@
 # DesignLab
 
-![IntroLab](http://www.plantuml.com/plantuml/svg/hLHHQnGn47xVNn7EbxMse8AWVP0Y5H4f5W_neQsGsqnlOxD9o6GzJl4N-HDywo_pDfSDsJZQ5KqVclcI-VBDTxDpWfuxttUgyiOoRzZAU6yw9gI3nakZAxoHsdB7EwQa1h-rm8pphQcgHd54zg9N2ZpxMZ7s80RrjJBS7xByt_rZ5cxqLd0FzOXzDb84N3Y-gPSjj_0Ej007RZpz5XzwgQ7RndV2lXuv4Vpfg1VhCkyLxo2c3TkKvG3b5wYbtacKUYB61Gbr3bdU8qmG8T6Q0ciS3DLDkR3lW5JrMjlUdplJ0A9nIMDva1JVmFQzhVTQLyOeu7h4Jyr65oVvIszWYoD_37FtTd7mOSpDzKiakBDVSdhtt04YY3z8MNhk8Mc9SPrsPrppDRXHdDJIrsMVJ82MQw7sZjtvyr3DbxGL2gB44gvdDN8Eu91zFBHOUkkCIntvXstYx8PWwPtKwukhKk2vujlSl1ZJvj4Mq7RDDBeikDG6BXCMZHhFbvOty7Rr2PeuAN8abRznt4wUDBr7AU23rC9iodQAhDXA6pbJd1Z9gPBeiJLcMZI23xVlAZpW2gvz-KbCOoVNhSzrLt5QJjRHnRs7k_NqyQ5LNEgheuziObXSrNu0pimDjgHLXI7uQ-wJPyFVeU3OWhWwUiwekNJC5hVVzvFjziU2ebeyMh23H1UbxDWMQ-mkzUwmxD2_bbGa5vBIZN-NL6A_vndl1hPI0Sr65vXzsMaL1OQ1CTEhn49J4O_HL6MxqLHpROU1BLX5y19CP6jJDiylA0wf_rIG3MoX8eAu8h3P7sl2PiXOXO62b_fWmShXGdFHxXJ9b3k9Qlxigav0YxvJFm40)
+_Component-Oriented Design and Architecture_
+
+### Objectives
+
+Assignment
+[DesignLab](https://drive.google.com/file/d/0B6Mo6Uok0on9SDJiX1V2c1p6MjQ/view?resourcekey=0-AQPbiC3vPCzRQgqN-XZ0Bw)
+will elaborate on the design and architecture of the component-oriented Asteroids game.
+The overall objective is to make the Asteroids game component-based and to demonstrate reduced coupling that makes the
+game less resistive to changes.
+
+### Classwork
+
+- Perform a dependency analysis (see the textbook example) on The Monolithic Asteroids Game
+  [IntroLab](https://github.com/nymann/IntroLab) and The Asteroids Game [JavaLab](https://github.com/nymann/JavaLab).
+- Reflect on what influence Component-oriented Design has on large systems.
