@@ -1,0 +1,6 @@
+[submodule "IntroLab"]
+	path = IntroLab
+	url = https://github.com/nymann/IntroLab
+[submodule "JavaLab"]
+	path = JavaLab
+	url = https://github.com/nymann/JavaLab
